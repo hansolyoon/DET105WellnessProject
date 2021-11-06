@@ -1,72 +1,72 @@
-  h1 {
-    color: #003087;
-    font-size: 70px;
-    position: relative;
-    text-align: center;
-    padding-top: 70px;
-  }
+h1 {
+  color: #003087;
+  font-size: 70px;
+  position: relative;
+  text-align: center;
+  padding-top: 70px;
+}
 
-  h2 {
-    color: #003087;
-    display:inline-block;
-    font-size: 30px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-  }
+h2 {
+  color: #003087;
+  display:inline-block;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
 
-  a {
-    color: #000000;
-    display:inline-block;
-    font-weight: 400;
-  }
+a {
+  color: #000000;
+  display:inline-block;
+  font-weight: 400;
+}
   
-  .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 50px;
-  }
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
   
-  #formContent {
-    background: #fff;
-    width: 90%;
-    max-width: 450px;
-    position: relative;
-    padding: 0px;
-    box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
-    text-align: center;
-  }
+#formContent {
+  background: #fff;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+  text-align: center;
+}
   
-  #formFooter {
-    background-color: #f0f0f0;
-    border-top: 1px solid #ffffff;
-    padding: 20px;
-    text-align: center;
-    -webkit-border-radius: 0 0 10px 10px;
-    border-radius: 0 0 10px 10px;
-  }
+#formFooter {
+  background-color: #f0f0f0;
+  border-top: 1px solid #ffffff;
+  padding: 20px;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
   
-  input[type=button], input[type=submit], input[type=reset]  {
-    background-color: #003087;
-    border: none;
-    color: white;
-    padding: 15px 80px;
-    text-align: center;
-    font-size: 13px;
-  }
+input[type=submit]{
+  background-color: #003087;
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer
+}
   
-  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
-    background-color: #235dc9;
-  }
+input[type=submit]:hover{
+  background-color: #235dc9;
+}
   
-  input[type=text] {
-    background-color: #f1f1f1;
-    color: #0d0d0d;
-    padding: 15px 30px;
-    text-align: center;
-    display: inline-block;
-    font-size: 15px;
-    margin: 5px;
-    width: 80%;
-    border: 2px solid #f6f6f6;
-  }
+input[type=text] {
+  background-color: #f1f1f1;
+  color: #0d0d0d;
+  padding: 15px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin: 5px;
+  width: 80%;
+  border: 2px solid #f6f6f6;
+}
