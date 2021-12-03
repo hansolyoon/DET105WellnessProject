@@ -1,0 +1,56 @@
+<head>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <link href="q.css" rel="stylesheet">
+</head>
+
+<div id="slide-1" class = "panel">
+  <h2>Daily Tap</h2>
+  <h4>How many hours of sleep did you get?</h4>
+  <h10>Get 5 points!</h10>
+</div>
+
+<div class="container">
+  <div id="questions">
+      <div>
+          <label class="radio"> <input type="radio"> <span>0-2</span>
+          </label>
+      </div>
+      <div>
+          <label class="radio"> <input type="radio"> <span>3-4</span>
+          </label>
+      </div>
+      <div>
+          <label class="radio"> <input type="radio"> <span>4-6</span>
+          </label>
+      </div>
+      <div>
+          <label class="radio"> <input type="radio"> <span>6-8</span>
+          </label>
+      </div>
+      <div>
+          <label class="radio"> <input type="radio"> <span>8+</span>
+          </label>
+      </div>
+  </div>
+</div>
+
+<form id="submission">
+  <div class="textarea-container">
+    <textarea placeHolder="If you slept less than 6 hours, why? " class="form-control" rows="15" name="post_details" id="post_details"></textarea>
+  </div>
+  <br>
+</form>
+
+<a href="../home.html">Submit</a>
+
+<script>
+$('input[type=radio]').click(function(){
+  if (this.previous) {
+      this.checked = false;
+  }
+  this.previous = this.checked;
+});
+</script>

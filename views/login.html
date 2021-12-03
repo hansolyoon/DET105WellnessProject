@@ -7,19 +7,23 @@
 </head>
 
 <div>
-    <h1>Welcome Cadet!</h1>
+    <h1>Welcome!</h1>
 </div>
 
 <div class="wrapper">
   <div id="formContent">
     <h2>Login</h2>
-    <form>
-      <input type="text" id="Email" name="Email" placeholder="Email">
-      <input type="text" id="Password" name="Password" placeholder="Password">
-      <input type="submit" class="fadeIn fourth" value="LOG IN">
+    <form id=login>
+      <input type="text" placeholder="Email">
+      <input type="password" id="passwordInput" placeHolder="Password" name="originalPassword">
+      <a href="home.html">Log in</a>
     </form>
     <div id="formFooter">
-      <a class="underlineHover" href="#">Create Account</a>
+      <small class="form-text text-muted">
+        <a href="account.html">
+            Don't have an account?
+        </href>
+    </small>
     </div>
   </div>
 </div>
